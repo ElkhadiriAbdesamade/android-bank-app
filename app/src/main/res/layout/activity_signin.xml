@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninActivity"
+    android:background="@drawable/lg_bg">
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frg_top_icons"
+        tools:layout_weight="1"
+        android:name="com.example.bankapp.TopIconsFragment"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/login_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_icons"
+        android:layout_below="@+id/frg_top_icons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@color/trans"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtsusername"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/color_60"
+            android:hint="@string/user_name"
+            android:textColor="@color/color_60"
+            android:textColorHint="@color/color_60" />
+
+        <EditText
+            android:id="@+id/txtspsw"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/color_60"
+            android:hint="@string/psw"
+            android:inputType="textPassword"
+            android:textColor="@color/color_60"
+            android:textColorHint="@color/color_60" />
+
+        <Button
+            android:id="@+id/btn_sgn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="@string/btn_signin"
+            android:textColor="@color/color_30"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/trans"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_text"
+            android:textSize="20dp"
+            android:textColor="@color/color_60"
+            />
+        <TextView
+            android:id="@+id/txtlgn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_login"
+            android:textSize="25dp"
+            android:textColor="@color/color_10"/>
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frg_ch_lang"
+        tools:layout_weight="1"
+        android:name="com.example.bankapp.ChangeLanguagFragment"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>

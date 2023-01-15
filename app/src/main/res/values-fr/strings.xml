@@ -1,0 +1,44 @@
+<resources>
+    <!-- Login Activity -->
+    <string name="app_name">Bankapp</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="psw">Mot de passe</string>
+    <string name="rememberme">Souvenir moi</string>
+    <string name="btn_login">Connexion</string>
+    <string name="signup_text">Vous n\'avez pas de compte</string>
+    <string name="btn_signin">S\'inscrire</string>
+
+    <!-- sign in Activity -->
+    <string name="login_text">Vous avez un compte</string>
+
+
+    <string name="title_activity_agance_maps">AganceMapsActivité</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="change_language">Changer de langue</string>
+    <string name="transactions">Transactions</string>
+    <string name="add_transaction">Ajouter une transaction</string>
+    <string name="transaction_details">Détails de la transaction</string>
+    <string name="account">Compte :</string>
+    <string name="reference">Référence :</string>
+    <string name="description">Description :</string>
+    <string name="date">Date :</string>
+    <string name="amount">Montant :</string>
+    <string name="balance">Solde :</string>
+    <string name="msg_hint">tapez votre message ici</string>
+    <string name="send_msg">Envoyer Msg</string>
+    <string name="send_btn">Envoyer</string>
+    <string name="agance_locations">Emplacements des agences</string>
+    <string name="click_a_mark">Cliquez une marque pour obtenir numéro</string>
+    <string name="make_a_call">faire un appel</string>
+
+    <string name="Choose_a_marker">Veuillez choisir un marqueur !!</string>
+    <string name="allow_permission">Veuillez autoriser l\'autorisation !!</string>
+    <string name="login_info_err_msg">Nom d\'utilisateur ou mot de passe incorrect !!</string>
+    <string name="hello_msg">Bonjour :)</string>
+    <string name="msg_err">Veuillez remplir le contenu du message !!</string>
+    <string name="sms_err">Impossible de résoudre l\'application pour l\'intention</string>
+    <string name="user_info_err">Veuillez remplir les informations de l\'utilisateur !!</string>
+    <string name="add_succ">Ajouté avec succès :)</string>
+    <string name="failed">Manqué !!</string>
+</resources>

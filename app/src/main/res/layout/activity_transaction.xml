@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransactionActivity"
+    android:background="@drawable/coin_bg"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/login_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frg_top_icons"
+            tools:layout_weight="1"
+            android:name="com.example.bankapp.TopIconsFragment"
+
+            />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions"
+            android:textSize="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/color_60"
+            tools:layout_weight="1"/>
+
+        <ListView
+            android:id="@+id/list_trans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/add_transaction"
+        app:backgroundTint="@color/color_10"
+        android:src="@drawable/add_icon"
+        android:layout_margin="16dp"
+        app:fabSize="normal"/>
+
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frg_ch_lang"
+        tools:layout_weight="1"
+        android:name="com.example.bankapp.ChangeLanguagFragment"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AganceMapsActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/color_30"
+    >
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agance_locations"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/color_60"/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="30dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        tools:context=".AganceMapsActivity"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <EditText
+            android:id="@+id/txt_phone_num_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/click_a_mark"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:textColor="@color/color_60"
+            android:backgroundTint="@color/color_60"
+            android:textColorHint="@color/color_60"/>
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/make_a_call"
+            android:background="@drawable/button"
+            android:textColor="@color/color_30"
+           />
+
+    </LinearLayout>
+
+</LinearLayout>

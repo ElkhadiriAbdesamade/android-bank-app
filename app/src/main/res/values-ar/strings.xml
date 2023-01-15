@@ -1,0 +1,44 @@
+<resources>
+    <!-- Login Activity -->
+    <string name="app_name">تطبيق البنك</string>
+    <string name="user_name">اسم االمستخدم</string>
+    <string name="psw">كلمه السر</string>
+    <string name="rememberme">تذكرني على هذا الجهاز</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="signup_text">ليس لديك حساب</string>
+    <string name="btn_signin">اشتراك</string>
+
+    <!-- sign in Activity -->
+    <string name="login_text">لديك حساب</string>
+
+
+    <string name="title_activity_agance_maps">وكالة خرائط النشاط</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="transactions">المعاملات</string>
+    <string name="add_transaction">أضف معاملة</string>
+    <string name="transaction_details">تفاصيل المعاملة</string>
+    <string name="account">: رقم الحساب</string>
+    <string name="reference">: رقم المرجع</string>
+    <string name="description">: وصف</string>
+    <string name="date">: تاريخ</string>
+    <string name="amount">: المبلغ</string>
+    <string name="balance">: الرصيد</string>
+    <string name="msg_hint">اكتب رسالتك هنا</string>
+    <string name="send_msg">إرسال رسالة</string>
+    <string name="send_btn">إرسال</string>
+    <string name="agance_locations">مواقع الوكالة</string>
+    <string name="click_a_mark">انقر فوق علامة للحصول على رقم</string>
+    <string name="make_a_call">إجراء مكالمة</string>
+
+    <string name="Choose_a_marker">الرجاء اختيار علامة !!</string>
+    <string name="allow_permission">الرجاء السماح إذن !!</string>
+    <string name="login_info_err_msg">اسم المستخدم او الرقم السري غير صحيح !!</string>
+    <string name="hello_msg">مرحبا :)</string>
+    <string name="msg_err">الرجاء ملء محتوى الرسالة !!</string>
+    <string name="sms_err">لا يمكن حل التطبيق لـ ACTION_SENDTO Intent</string>
+    <string name="user_info_err">الرجاء تعبئة معلومات المستخدم !!</string>
+    <string name="add_succ">اضيف بنجاح :)</string>
+    <string name="failed">باءت بالفشل</string>
+</resources>
